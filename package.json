@@ -1,19 +1,19 @@
 {
   "name": "@camilovista2010/ts",
-  "version": "1.0.0",
-  "description": "operations of cirsa", 
+  "version": "1.0.1",
+  "description": "operations of cirsa",
   "main": "operations.js",
   "engines": {
     "node": ">=16.17.1"
   },
   "scripts": {
-    "build" : "tsc --outDir lib",
-    "test": "echo \"Info: not implement test\"", 
+    "build": "tsc --outDir lib",
+    "test": "echo \"Info: not implement test\"",
     "prepublish": "tsc --outDir lib"
   },
   "publishConfig": {
     "access": "public",
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "github",
@@ -22,9 +22,11 @@
   "keywords": [],
   "author": "cirsa interactive",
   "license": "ISC",
-  "devDependencies": {
-    "@types/lodash": "^4.14.186",
-    "lodash": "^4.17.21",
+  "devDependencies": { 
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.186",
+    "lodash": "^4.17.21"
   }
 }
