@@ -1,0 +1,26 @@
+{
+  "name": "operations",
+  "version": "1.0.0",
+  "description": "operations of cirsa",
+  "private": true,
+  "main": "operations.js",
+  "engines": {
+    "node": ">=16.17.1"
+  },
+  "scripts": {
+    "build" : "tsc --outDir lib",
+    "test": "echo \"Info: not implement test\""
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "http://registry.npmjs.org/-/user/org.couchdb.user:camilovista2010"
+  },
+  "keywords": [],
+  "author": "cirsa interactive",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.186",
+    "lodash": "^4.17.21",
+    "typescript": "^4.8.4"
+  }
+}
