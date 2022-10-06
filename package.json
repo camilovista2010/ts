@@ -1,19 +1,23 @@
 {
-  "name": "operations",
+  "name": "@camilovista2010/ts",
   "version": "1.0.0",
-  "description": "operations of cirsa",
-  "private": true,
+  "description": "operations of cirsa", 
   "main": "operations.js",
   "engines": {
     "node": ">=16.17.1"
   },
   "scripts": {
     "build" : "tsc --outDir lib",
-    "test": "echo \"Info: not implement test\""
+    "test": "echo \"Info: not implement test\"", 
+    "prepublish": "tsc --outDir lib"
   },
   "publishConfig": {
-    "access": "restricted",
-    "registry": "http://registry.npmjs.org/-/user/org.couchdb.user:camilovista2010"
+    "access": "public",
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/camilovista2010/ts.git"
   },
   "keywords": [],
   "author": "cirsa interactive",
