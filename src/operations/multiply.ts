@@ -1,12 +1,11 @@
-import * as lodash from "lodash";
+import * as lodash from 'lodash';
 
-
-/** 
+/**
  * @example
  *
  * multiply(2 , 2)
  * // => 4
  */
-const multiply = (dividend : number, divisor : number) : number => lodash.multiply(dividend , divisor);  
+const multiply = (dividend: number, divisor: number): number => lodash.multiply(dividend, divisor);
 
-export default multiply; 
+export default multiply;

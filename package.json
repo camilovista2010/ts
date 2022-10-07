@@ -1,7 +1,7 @@
 {
   "name": "@camilovista2010/ts",
   "version": "1.0.2",
-  "description": "operations of cirsa", 
+  "description": "operations of cirsa",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "engines": {
@@ -10,14 +10,18 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test" 
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "format": "prettier --write \"src/**/*.ts\" \"lib/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com" 
+    "registry": "https://npm.pkg.github.com"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "github",
     "url": "https://github.com/camilovista2010/ts.git"
@@ -28,7 +32,10 @@
   "devDependencies": {
     "@types/jest": "^29.1.2",
     "jest": "^29.1.2",
+    "prettier": "^2.7.1",
     "ts-jest": "^29.0.3",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.8.4"
   },
   "dependencies": {

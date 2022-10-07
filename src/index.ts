@@ -1,3 +1,3 @@
-import operation from "./operations";
+import operation from './operations';
 
 export default operation;
