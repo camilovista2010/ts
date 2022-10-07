@@ -1,4 +1,4 @@
-import operation from '../operations';
+import operation from '../src/index';
 
 describe('operations module', () => {
   test('operations sum adds array [ 1 , 2 ] to equal 3', () => {
